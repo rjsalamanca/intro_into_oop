@@ -1,5 +1,8 @@
 # intro_into_oop
+
 ## 1. Basics
+
+**All challenges that deal with the Person class is stored in: person_oop_exercise.py**
 
 Given the following Person class:
 
@@ -23,6 +26,8 @@ class Person: def __init__(self, name, email, phone):
 6. Write another print statement to print the contact info of Jordan.
 
 ## 2. Make your own class
+
+**Solution is stored in: vehicle_oop.py**
 
 Create a class Vehicle. A Vehicle object will have 3 attributes:
 
@@ -97,12 +102,12 @@ You may notice that when you are working with a person object, it's representati
     >>> print(jordan) 
     <__main__.Person object at 0x106976410>
 
-You can change that! Just add a __str__ method to the Person class and have it return a string. Whatever you return there will be used to "represent" your person object. For example, say I want a Person to be represented like Person: Jordan jordan@aol.com 495-586-3456, I could implement __str__ thus:
+You can change that! Just add a __ str __ method to the Person class and have it return a string. Whatever you return there will be used to "represent" your person object. For example, say I want a Person to be represented like Person: Jordan jordan@aol.com 495-586-3456, I could implement __ str __ thus:
 
     def __str__(self): 
         return 'Person: {} {} {}'.format(self.name, self.email, self.phone)
         
-Implement your own __str__ method, and you can represent your person objects however you want. Incidentally, __str__ is also used when you use convert your object to a string: str(jordan).
+Implement your own __ str __ method, and you can represent your person objects however you want. Incidentally, __ str __ is also used when you use convert your object to a string: str(jordan).
 
 ## Bonus Challenge
 Keep track of the number of unique people a person has greeted, and be able to report that number via the num_unique_people_greeted method:
