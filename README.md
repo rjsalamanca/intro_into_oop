@@ -2,7 +2,7 @@
 
 ## 1. Basics
 
-**All challenges that deal with the Person class is stored in: person_oop_exercise.py**
+**++All challenges that deal with the Person class is stored in: person_oop_exercise.py++**
 
 Given the following Person class:
 
